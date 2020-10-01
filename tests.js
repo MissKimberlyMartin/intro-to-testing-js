@@ -22,15 +22,15 @@ describe('sayHello', function () {
     it("should be a defined function", function ()  {
         expect(typeof sayHello).toBe("function");
     });
-
     it('should return string "Hello, Jane!" when passed "Jane"', function () {
         expect(sayHello("Jane")).toBe("Hello, Jane!");
     });
-
     it('should return string "Hello, Alex!" when input is "Alex"', function () {
         expect(sayHello("Alex")).toBe("Hello, Alex!");
     });
-
+    it('should return string "Hello, Pat!" when input is "Pat"', function () {
+        expect(sayHello("Pat")).toBe("Hello, Pat!");
+    });
 });
 
 
