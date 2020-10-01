@@ -1,3 +1,4 @@
+// Exercise 0
 // Unit tests for the helloWorld function
 describe('helloWorld', function() {
     it('should be a defined function', function() {
@@ -14,11 +15,17 @@ describe('helloWorld', function() {
     });
 });
 
+// Exercise 1
 // unit tests for sayHello()
 
 describe('sayHello', function () {
     it("should be a defined function", function ()  {
         expect(typeof sayHello).toBe("function");
     });
+    it('should return a string when called', function () {
+        expect(typeof sayHello()).toBe("string");
+    });
 });
+
+
 
