@@ -5,11 +5,20 @@ function helloWorld() {
 
 // sayHello function
 
+// before refactoring
+
+// function sayHello(input) {
+//     if (input === "Jane") {
+//         return "Hello, Jane!";
+//     } else if (input === "Alex")  {
+//         return "Hello, Alex!";
+//     } else if (input === "Pat");
+//         return "Hello, Pat!";
+// }
+
+// after refactoring
+
 function sayHello(input) {
-    if (input === "Jane") {
-        return "Hello, Jane!";
-    } else if (input === "Alex")  {
-        return "Hello, Alex!";
-    } else if (input === "Pat");
-        return "Hello, Pat!";
+    return "Hello, " + input + "!";
 }
+
