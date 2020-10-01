@@ -18,7 +18,22 @@ function helloWorld() {
 
 // after refactoring
 
+// function sayHello(input) {
+//     if (typeof input !== "undefined") {
+//         return "Hello, " + input + "!";
+//     } else {
+//         return "Hello, World!";
+//     }
+// }
+
 function sayHello(input) {
-    return "Hello, " + input + "!";
+    if (input === true || typeof input === "undefined") {
+        return "Hello, World!";
+    } else {
+        return "Hello, " + input + "!";
+    }
 }
+
+
+
 
