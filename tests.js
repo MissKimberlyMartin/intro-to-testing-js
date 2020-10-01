@@ -21,3 +21,4 @@ describe('sayHello', function () {
         expect(typeof sayHello).toBe("function");
     });
 });
+
